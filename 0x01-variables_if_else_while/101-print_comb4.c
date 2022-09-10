@@ -22,14 +22,11 @@ int main(void)
 			for (q = p + 1; q < 10; q++)
 			{
 
-				if ((p != d) != q)
-				{
+					putchar((d % 10) + '0');
 
-					putchar(d % 10);
+					putchar((p % 10) + '0');
 
-					putchar(p % 10);
-
-					putchar(q % 10);
+					putchar((q % 10) + '0');
 
 					if (d == 7 && p == 8 && q == 9)
 					continue;
@@ -37,7 +34,6 @@ int main(void)
 					putchar(',');
 
 					putchar(' ');
-				}
 			}
 		}
 	}
