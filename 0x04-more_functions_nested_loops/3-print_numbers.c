@@ -1,18 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* mul - function that multiplies two integers
-* @a: First integer
-* @b: Second integer
-* Return: mul.
+* print_most_numbers -  prints the numbers except 2 and 4.
 */
 
-int mul(int a, int b)
+void print_most_numbers(void)
 {
-	int x;
+	char c;
 
-	x = a * b;
-
-	return (x);
+	for (c = '0'; c <= '9'; c++)
+		if (c != '2' && c != '4')
+			_putchar(c);
+	_putchar('\n');
 }
