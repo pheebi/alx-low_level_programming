@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98.
+ * reset_to_98-check the code.
  * @n : n is the pointer of n and return value 98
  * Return: Always 0.
  */
